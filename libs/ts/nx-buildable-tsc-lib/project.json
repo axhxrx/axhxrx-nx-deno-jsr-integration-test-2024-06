@@ -1,0 +1,19 @@
+{
+  "name": "nx-buildable-tsc-lib",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/ts/nx-buildable-tsc-lib/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/ts/nx-buildable-tsc-lib",
+        "main": "libs/ts/nx-buildable-tsc-lib/src/index.ts",
+        "tsConfig": "libs/ts/nx-buildable-tsc-lib/tsconfig.lib.json",
+        "assets": ["libs/ts/nx-buildable-tsc-lib/*.md"]
+      }
+    }
+  }
+}
