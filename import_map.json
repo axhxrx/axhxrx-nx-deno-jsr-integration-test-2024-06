@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "@axhxrx/date": "jsr:@axhxrx/date@^0.1.4"
+  }
+}
