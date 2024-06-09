@@ -1,5 +1,13 @@
 This is a test repo to try out different techniques for integrating — or sharing a code base between, anyway — an Nx monorepo with legacy Node stuff like Angular apps and Node programs, and new spiffy stuff like Deno and JSR. 
 
+## testing
+
+```shell
+ nx run-many --target test
+ # or
+ nx run-many --target test --skip-nx-cache
+
+```
 ----- 
 
 original readme follows
