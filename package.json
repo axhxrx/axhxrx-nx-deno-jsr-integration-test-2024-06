@@ -5,6 +5,7 @@
   "scripts": {},
   "private": true,
   "dependencies": {
+    "@axhxrx/date": "npm:@jsr/axhxrx__date@^0.1.4",
     "@axhxrx/dprint-config": "npm:@jsr/axhxrx__dprint-config@^0.0.1",
     "tslib": "^2.3.0"
   },
