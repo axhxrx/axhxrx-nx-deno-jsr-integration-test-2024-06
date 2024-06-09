@@ -1,3 +1,10 @@
+This is a test repo to try out different techniques for integrating — or sharing a code base between, anyway — an Nx monorepo with legacy Node stuff like Angular apps and Node programs, and new spiffy stuff like Deno and JSR. 
+
+----- 
+
+original readme follows
+
+
 # AxhxrxNxDenoJsrIntegrationTest202406
 
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
