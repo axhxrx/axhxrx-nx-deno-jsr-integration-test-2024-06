@@ -15,9 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@ts/nx-buildable-tsc-lib": [
-        "libs/ts/nx-buildable-tsc-lib/src/index.ts"
-      ],
+      "@ts/nx-buildable-tsc-lib": ["libs/ts/nx-buildable-tsc-lib/src/index.ts"],
       "@ts/nx-non-buildable-ts-lib": [
         "libs/ts/nx-non-buildable-ts-lib/src/index.ts"
       ]
