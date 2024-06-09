@@ -1,5 +1,6 @@
 {
   "name": "@axhxrx-nx-deno-jsr-integration-test-2024-06/source",
+  "type": "module",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {},
