@@ -1,3 +1,6 @@
+import { nxBuildableTscLib } from "@ts/nx-buildable-tsc-lib";
+
 export function nxNonBuildableTsLib(): string {
-  return 'nx-non-buildable-ts-lib';
+  const buildableLibOutput = nxBuildableTscLib();
+  return 'nx-non-buildable-ts-lib depends on: ' + buildableLibOutput;
 }
