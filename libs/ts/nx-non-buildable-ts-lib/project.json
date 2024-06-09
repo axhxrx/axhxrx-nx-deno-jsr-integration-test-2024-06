@@ -1,0 +1,9 @@
+{
+  "name": "nx-non-buildable-ts-lib",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/ts/nx-non-buildable-ts-lib/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project nx-non-buildable-ts-lib --web",
+  "targets": {}
+}
