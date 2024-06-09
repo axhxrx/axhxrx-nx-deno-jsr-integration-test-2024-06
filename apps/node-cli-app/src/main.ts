@@ -1,1 +1,4 @@
-console.log('Hello World');
+import { NodeCliApp } from "./NodeCliApp";
+
+const app = new NodeCliApp();
+app.main();
