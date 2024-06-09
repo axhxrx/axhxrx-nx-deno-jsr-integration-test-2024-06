@@ -7,6 +7,7 @@
   "dependencies": {},
   "devDependencies": {
     "@nx/js": "19.2.2",
+    "@nx/node": "19.2.2",
     "@nx/workspace": "19.2.2",
     "nx": "19.2.2"
   }
