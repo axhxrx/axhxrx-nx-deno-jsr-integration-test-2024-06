@@ -1,8 +1,12 @@
+import * as mod from "@axhxrx/date";
+
 export class Animal
 {
   name: string;
   age: number;
   species: string;
+  
+  born = mod.dateToIS08601WithTimeZoneOffset();
 
   constructor(name: string, age: number, species: string)
   {

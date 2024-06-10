@@ -1,7 +1,8 @@
+import * as mod from "@axhxrx/date";
 export class NodeCliApp
 {
   constructor(
-    readonly id: string = `NodeCliApp created at ${new Date().toISOString()}`,
+    readonly id: string = `NodeCliApp created at ${mod.dateToIS08601WithTimeZoneOffset()}`,
   )
   {
     // 🌹 Hi, mom!
