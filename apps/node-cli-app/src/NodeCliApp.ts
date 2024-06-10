@@ -1,8 +1,8 @@
-import { dateToIS08601WithTimeZoneOffset } from '@axhxrx/date';
+import * as mod from "@axhxrx/date";
 export class NodeCliApp
 {
   constructor(
-    readonly id: string = `NodeCliApp created at ${dateToIS08601WithTimeZoneOffset()}`,
+    readonly id: string = `NodeCliApp created at ${mod.dateToIS08601WithTimeZoneOffset()}`,
   )
   {
     // 🌹 Hi, mom!

@@ -12,8 +12,10 @@
       "options": {
         "platform": "node",
         "outputPath": "dist/apps/node-cli-app",
-        "format": ["cjs"],
-        "bundle": false,
+        "format": [
+          "esm"
+        ],
+        "bundle": true,
         "main": "apps/node-cli-app/src/main.ts",
         "tsConfig": "apps/node-cli-app/tsconfig.app.json",
         "assets": ["apps/node-cli-app/src/assets"],
